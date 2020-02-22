@@ -9,7 +9,7 @@ Use the `lab_setup` scripts to deploy systems that you can use as lab.
 To use these scripts you may need to prepare your host, by making sure you can run the following: 
 
 1. `terraform version`
-<!-- 1. `ansible --version` -->
+1. `ansible --version`
 
 ### To install libvirt: 
 
@@ -46,7 +46,7 @@ To use these scripts you may need to prepare your host, by making sure you can r
 
 **Note**: Due to a [bug](https://github.com/dmacvicar/terraform-provider-libvirt/issues/665) in the terraform libvirt plugin, you need to compile and use a version; with the following [fix](https://github.com/dmacvicar/terraform-provider-libvirt/pull/707). Use instructions in the [Official plugin install instructions](https://github.com/dmacvicar/terraform-provider-libvirt) to accomplish this. 
 
-<!-- ### To install Ansible: 
+### To install Ansible: 
 
 #### On Fedora
 
@@ -55,4 +55,4 @@ To use these scripts you may need to prepare your host, by making sure you can r
 #### On Fedora Silverblue 
 
 1. `sudo rpm-ostree install ansible`
-1. `sudo systemctl restart` --> 
+1. `sudo systemctl restart` 
